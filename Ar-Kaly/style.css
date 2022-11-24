@@ -1,0 +1,74 @@
+body {
+ background-color:rgb(34, 32, 32);
+}
+
+nav {
+    background-color: rgb(33, 52, 163);
+    display: flex;
+
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    border-color: rgb(16, 30, 228);
+    padding: 15px 14px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: cyan;
+}
+div button {
+    background-color: cadetblue;
+    border-color: floralwhite;
+}
+
+nav .ar{
+    color:chartreuse;
+    font-size: 24PX;
+}
+
+/*header*/
+header{
+    display: flex;
+    flex-direction: column;
+    background: url(./photo/KALY\ \(2\).jpg);
+    background-size: 40em;
+    align-items:center;
+    padding:50px;
+
+} 
+ div h1{
+    color: springgreen;
+    font-size:7em;
+    text-align: center;
+ }
+ div h3 {
+    color: rgb(0, 238, 255);
+    font-size: 2em;
+    text-align: center;
+ }
+/*fin header*/
+
+
+/*footer*/
+footer{
+    background-color: brown;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    position: sticky;
+
+}
+footer h4 {
+    color: cyan;
+}
+footer div button a{
+    text-decoration: none;
+
+}
+footer div a{
+    text-decoration: none;
+    color: black;
+}
+/*fin footer*/
